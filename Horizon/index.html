@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Completed Projects</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./index.js\">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+        <div class="quanbop">
+          <div class="quanbop-bop">
+           <h1 class="quanbop_1">FEATURED CASES</h1>
+           <h2 class="quanbop_2">Completed Projects</h2>
+           <p class="quanbop_3">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
+           </div>
+        </div>
+
+
+       <div class="hero">
+        <div class="btn-box">
+           <button id="btn1" onclick="openProjectOne ()"><i class="fa fa-html5"></i>Project One</button>
+           <button id="btn2" onclick="openProjectTwo ()"><i class="fa fa-css3"></i>Project Two</button>
+           <button id="btn3" onclick="openProjectThree ()"><i class="fa fa-codeopen"></i>Project Three</button>
+        </div>
+        <div id="content1"  class="content">
+           <div class="content-left">
+             <h1>Why a visual identity system is more memorable</h1>
+             <p>Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores praesentium nulla quibusdam repellendus. consequatur minus aliquam corrupti blanditiis, necessitatibus consectetur modi ipsum natus accusantium sit pariatur</p>
+             <button>Know more</button>
+            </div>
+           <div class="content-right">
+              <img src="./img/b4.jpg">
+           </div>
+        </div>
+        <div id="content2" class="content">
+            <div class="content-left">
+              <h1>Make website that looks Lorem, ipsum dolor.</h1>
+              <p>Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores praesentium nulla quibusdam repellendus. consequatur minus aliquam corrupti blanditiis, necessitatibus consectetur modi ipsum natus accusantium sit pariatur.</p>
+              <button>Know more</button>
+             </div>
+            <div class="content-right">
+               <img src="./img/b5.jpg">
+            </div>
+         </div>
+         <div id="content3" class="content">
+            <div class="content-left">
+              <h1>Why a visual identity system is more memorable</h1>
+              <p>Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores praesentium nulla quibusdam repellendus. consequatur minus aliquam corrupti blanditiis, necessitatibus consectetur modi ipsum natus accusantium sit pariatur.</p>
+              <button>Know more</button>
+             </div>
+            <div class="content-right">
+               <img src="./img/b6.jpg">
+            </div>
+         </div>
+</div>
+
+<script>
+     var content1 = document.getElementById("content1");
+     var content2 = document.getElementById("content2");
+     var content3 = document.getElementById("content3");
+     var btn1 = document.getElementById("btn1");
+     var btn2 = document.getElementById("btn2");
+     var btn3 = document.getElementById("btn3");
+
+     function openProjectOne() {
+        content1.style.transform = "translateX(0)";
+        content2.style.transform = "translateX(100%)";
+        content3.style.transform = "translateX(100%)";
+        btn1.style.color = "#e83e8c";
+        btn2.style.color = "#000";
+        btn1.style.color = "#000";
+     }
+     function openProjectTwo() {
+        content1.style.transform = "translateX(100%)";
+        content2.style.transform = "translateX(0)";
+        content3.style.transform = "translateX(100%)";
+        btn2.style.color = "#e83e8c";
+        btn1.style.color = "#000";
+        btn3.style.color = "#000";
+     }
+     function openProjectThree() {
+        content1.style.transform = "translateX(100%)";
+        content2.style.transform = "translateX(100%)";
+        content3.style.transform = "translateX(0)";
+        btn3.style.color = "#e83e8c";
+        btn2.style.color = "#000";
+        btn1.style.color = "#000";
+     }
+</script>
+
+</body>
+</html>

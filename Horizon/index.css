@@ -1,0 +1,148 @@
+.hero{
+    width: 80%;
+    height: 450px;
+    position: relative;
+    margin: 100px auto;
+    overflow: hidden;
+}
+.btn-box{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+.btn-box button{
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 40px 0;
+    margin-right: 100px;
+    font-size: 22px;
+    font-weight: bold;
+
+    font-weight: 700;
+    padding: 16px;
+    margin: 0;
+    list-style: none;
+    cursor: pointer;
+    float: left;
+    width: 33.333%;
+    text-align: center;
+    color: #4E5B61;
+    background: #fff !important;
+    border-bottom: 3px solid #eee;
+}
+.btn-box button:hover .fa{
+    color:black;
+}
+
+.content-right img{
+    width: 450px;
+    border-radius: 10px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5% auto;
+    position: absolute;
+    transform: translateX(100%);
+    transition: 0.1s;
+}
+.content-left h1{
+    color: var(--title-color);
+    margin-bottom: 16px;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    align-items: left;
+}
+.content-left{
+    flex-basis: 50%;
+    text-align: left;
+}
+.content-left p{
+    font-size: 17px;
+    padding: 12px 1000;
+    color: #212529;
+    justify-content: left;
+
+    display: flex;
+    align-items: left;
+    letter-spacing: 0.6px;
+}
+.content-left button{
+    transition: 0.3s ease-out;
+    display: inline-block;
+    line-height: 52px;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0px;
+    
+    display: block;
+    padding: 0px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: whitesmoke;
+    color: #e83e8c;
+    text-align: left;
+    letter-spacing: 1px;
+}
+.content-left button:hover{
+    background-color: #e83e8c;
+    color: white;
+    border-color: brown;
+}
+.content-right{
+    flex-basis: 50%;
+    text-align: center;
+}
+#content1{
+    transform: translateX(0px);
+} 
+#btn1 {
+    color: #e83e8c;
+}
+
+.quanbop{
+    text-align: center;
+    justify-content: center;
+    line-height: 0;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+
+    margin: 3px;
+    height: 20px;
+    padding: 120px;
+}
+
+.quanbop-bop h1{
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 650;
+    color: #e83e8c;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin: 10px;
+
+}
+.quanbop-bop h2{
+    font-size: 46px;
+    line-height: 1;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    text-align: center
+}
+.quanbop-bop p{
+    color: var(--title-color);
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 540;
+} 
+
+
